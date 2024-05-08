@@ -2,6 +2,7 @@
 ---
 ## 1. Overview
 The topic of fake news is as old as the news industry itself — misinformation, hoaxes, propaganda, and satire have long been in existence. So fake news is information that cannot be verified, without sources, and possibly untrue.
+
 Wiki also said:” Fake news is written and published usually with the intent to mislead in order to damage an agency, entity, or person, and/or gain financially or politically, often using sensationalist, dishonest, or outright fabricated headlines to increase readership. Similarly, clickbait stories and headlines earn advertising revenue from this activity.”
 
 ## 2. Motivation
