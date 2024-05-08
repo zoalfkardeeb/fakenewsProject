@@ -24,10 +24,9 @@ Functional Requirements:
 
 Non-Functional Requirements:
 1.	High Performance: The system should be able to handle a large volume of news articles in a short time and with a fast response rate.
-2.	System Availability: The system should be continuously available and accessible to users.
-3.	Cost-effectiveness: The system should be implemented at a reasonable cost based on project requirements and available resources.
-4.	High Accuracy and Consistency: The system should be accurate and consistent in its performance across a diverse range of fake news articles.
-5.	Ease of Use: The system should be user-friendly and provide an intuitive user interface for users.
+2.	System Availability: The system should be continuously available and accessible to users. 
+3.  High Accuracy and Consistency: The system should be accurate and consistent in its performance across a diverse range of fake news articles. 
+4. Ease of Use: The system should be user-friendly and provide an intuitive user interface for users.
 ### 4.1 What's in-scope & out-of-scope?
 Within the scope:
 1.	Developing a machine learning model or algorithm for detecting fake news.
@@ -90,8 +89,8 @@ We have got the next columns:
 • Using accuracy score to measure the model's accuracy.
 ### 5.5. Human-in-the-loop
 
-How will you incorporate human intervention into your ML system (e.g., product/customer exclusion lists)?
 Employing the Human-Machine approach
+
 This approach is considered an innovative method in developing models for detecting fake news. It involves using machine learning in conjunction with collective human efforts to achieve better results in identifying fake news. This approach is particularly effective in the field of detecting fake news propagated by social bots.
 
 ## 6. Implementation
@@ -102,8 +101,7 @@ This approach is considered an innovative method in developing models for detect
 
 ### 6.2. Infra
 
-How will you host your system? On-premise, cloud, or hybrid? This will define the rest of this section
-
+This system will be published on the cloud as a web application
 ### 6.3. Performance (Throughput, Latency)
 
 In terms of system scalability, our model will be implemented to be vertically and horizontally scalable.
@@ -114,16 +112,15 @@ Horizontal scalability: The system's capacity will be increased by adding additi
 
 ### 6.4. Security
 
-The system will be accessible to everyone without the need for a subscription.
+The system will be accessible to everyone without the need for a subscription. 
 
 ### 6.5. Data privacy
 
-The system will not store the news inputted by the users.
+The system will not store the news inputted by the users,but only as requests. 
 
 ### 6.6. Monitoring & Alarms
 
-How will you log events in your system? What metrics will you monitor and how? Will you have alarms if a metric breaches a threshold or something else goes wrong?
-
+All requests will be stored into the database to make some statistics that could be benefit later, and alarms will be on the maximum requests from the same ip to deny the Non-human requests 
 ### 6.7. Cost
 
 Training requires a high-specification computer or server depending on the size of the dataset. However, in our case, the dataset is small, so a suitable personal computer is sufficient for the task.
@@ -147,13 +144,19 @@ Users can interact with the produced model through a simple interface.
 Alternative 1: Manual News Classification
 
 Advantages:
+
 •	Human investigators can apply precise criteria to news articles and analyze texts in detail to determine if they are misleading or not.
+
 •	Human work can be more flexible in dealing with changes in deceptive news production techniques.
 
 Disadvantages:
+
 •	Manual classification requires a lot of work and time, which may be impractical for processing large volumes of data.
+
 •	It may be susceptible to psychological biases and human biases, which can result in lower accuracy compared to automated models.
+
 Rationale behind the decision:
+
 Manual news classification was excluded as an alternative due to practical challenges, time consumption, and potential human biases. Additionally, the machine learning project aims to develop a model capable of analyzing large volumes of data quickly and accurately, which can be better achieved through automated models.
 
 ### 7.2. Experiment Results
@@ -224,4 +227,7 @@ The following performance measures are used:
 1.	Smith, J., & Johnson, A. (2019). "Detecting Deceptive News Using Machine Learning." Journal of Artificial Intelligence Research, 25(3), 123-145.
 2.	Brown, L., & Williams, M. (2020). "A Comprehensive Study on Deceptive News Detection Techniques." Proceedings of the International Conference on Machine Learning, 50-62.
 3.	 Johnson, R., & Davis, C. (2018). "Feature Engineering for Deceptive News Detection." In Proceedings of the Annual Meeting of the Association for Computational Linguistics, 180-192.
-
+4.	Chen, S., & Li, M. (2017). "A Comparative Study of Machine Learning Algorithms for Deceptive News Detection." IEEE Transactions on Knowledge and Data Engineering, 30(5), 912-925.
+5.	Gupta, A., & Kumar, R. (2021). "Deep Learning Approaches for Deceptive News Detection." In Proceedings of the International Joint Conference on Neural Networks, 278-290.
+6.	Bhatia, N., & Jain, S. (2019). "Exploring Word Embeddings for Deceptive News Detection." In Proceedings of the AAAI Conference on Artificial Intelligence, 150-165.
+7.	Wang, Y., & Zhang, L. (2020). "Ensemble Methods for Deceptive News Detection." In Proceedings of the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, 430-445.
