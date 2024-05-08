@@ -177,13 +177,13 @@ The following performance measures are used:
 
 ### 7.4. Milestones & Timeline
 
-1-Data Collection and Cleaning (week 1-2):
+1-Data Collection and Cleaning (1-2 weeks):
 
 •	Identify suitable data sources for training and validation.
 
 •	Clean the data, removing duplicates and invalid entries.
 
-2-Machine Learning Model Development (week 3-4):
+2-Machine Learning Model Development (3-4 weeks):
 
 •	Determine the appropriate architectural pattern for the machine learning model.
 
@@ -197,7 +197,7 @@ The following performance measures are used:
 
 •	Fine-tune and optimize the model using the validation data.
 
-3-Model Evaluation and Testing (week 2-3):
+3-Model Evaluation and Testing (2-3 weeks):
 
 •	Evaluate the performance of the model using the validation and test data.
 
@@ -205,7 +205,7 @@ The following performance measures are used:
 
 •	Make necessary adjustments to improve the model's performance.
 
-4-User Interface Development (week 1-2):
+4-User Interface Development (1-2 weeks):
 
 •	Design and develop a simple user interface for the deceptive news detection system.
 
